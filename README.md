@@ -54,7 +54,7 @@ know the name of the 'children' attribute).
       ]
     };
 
-    var tree = Arborel.parse(wikipediaJsCategory, 'subcategories');
+    var tree = Arboreal.parse(wikipediaJsCategory, 'subcategories');
 
 ### Traversal
 
