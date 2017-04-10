@@ -54,11 +54,10 @@ know the name of the 'children' attribute).
       ]
     };
 
-    var tree = Arborel.parse(wikipediaJsCategory, 'subcategories');
+    var tree = Arboreal.parse(wikipediaJsCategory, 'subcategories');
     
-Also several children (or even the whole tree) can be added at the same time (syntax is similar as parse)
-
-    var tree = new Arboreal();
+Also several children (or even the whole tree) can be added, after parse, at the same time (syntax is similar as parse)
+    
     tree.children[1].appendChildren({category:'C#', subitems:[{category:'WPF'}]}, "subitems" );
 
 ### Traversal
